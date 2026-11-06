@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       <div class="house">
+        <form>
+             <div class="one">
+                               
+                      <h2> Mortgage Calculator</h2>
+                    <label> Mortgage Amount</label>
+                   <div class="Z">
+                  <div class="Z1"> $</div>
+                   
+                   <div> <input class="Z2"  id="amount"  type="number"  > </div>
+                   </div>
+                <div class="Y">
+                      <label> Mortgage Term</label>
+                    <div class="Y1">
+                      
+                   <div> <input class="Y11" id="term" type="number" > </div>
+                    <div class="Y12"> years</div>
+                    </div>
+                    <div>
+                        <label> Interest Rate</label>
+                        <div class="Y2">
+                             <div class="Y21"> %</div>
+                   
+                   <div> <input class="Y22" id="rate" type="number" required > </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                    <div class="X" >
+                        <label> Mortgage type</label>
+                        
+                             <div class="I1"><input type="radio" name="meet" value="Repayment" required>Repayment </div>
+                       <div class="I2">   <input type="radio" name="meet" value="Interest Only" required> Interest Only </div> 
+                        
+
+                    </div>
+                       <div class="last"> <button type="submit"  class="submit"> Calculate Repayments</button>    <button type="reset" class="clear">clear all</button> </div>
+                    
+                </div>
+                     </form>
+               <div class="two">
+                   <div class="twoFront"> <p> <h3> Results shown here</h3></p> <p> Complete the form and click "calculate repayments" to
+                   </br> see what your monthly repayments will be</p> 
+                   </div>
+                   <div class="twoBack"> 
+                           <p><h3> Your Results</h3></p>
+                            <p> Your results are shown below based on the information</br> 
+                            you provided. To adjust the result, edit the form and</br>
+                             click "calculate repayments " again  </p>
+                             <div class="Big">
+                                 <div class="A">  Monthly</div>
+                                 <div class="B"> <h1 class="Bb"> #000,000.000</h1></div>
+                                 <div class="C">Total you'll repay over the term </div>
+                                 <div class="D"><h3>#000,000,000.000 </h3></div>
+
+
+                             </div>
+                   </div>
+              </div>
+       </div>
+       
+    </div>
+
+     <script src="main.js"></script>
+</body>
+</html>

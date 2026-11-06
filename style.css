@@ -1,0 +1,163 @@
+.container{
+    width: 1200px;
+    height: 600px;
+    background-color: aquamarine;
+     margin-left: 200px;
+     margin-right: 300px;
+    padding-top: 50px;
+     box-shadow: 2px 2px 2px 2px gray;
+     align-items: center;
+   
+}
+.house{
+    height: 500px;
+    width: 900px;
+    border: 1px solid grey;
+    margin-left: 150px;
+    margin-top: 10px;
+    background-color: white;
+    
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+   
+}
+.one{
+    width: 450px;
+  
+}
+.two{
+    width: 450px;
+   
+    border-left: 2px solid black;
+   border-bottom-left-radius:50px ;
+  
+   padding: 2px;
+   background-color:rgb(2, 49, 34);
+   position: relative;
+
+}
+.twoFront{
+    color: white;
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(2, 49, 34);
+      border-bottom-left-radius:50px ;
+  
+      
+    
+} 
+.twoBack{
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    background-color: rgb(2, 49, 34); 
+     border-bottom-left-radius:50px ;
+     color: white;
+      text-align: center;
+     
+    
+}
+.Big{
+    
+    height: 200px;
+    width: 350px;
+    margin: 35px;
+    background-color: black;
+    box-shadow: 0 -10px 20px lime;
+}
+.Bb{
+    color: lawngreen;
+}
+ .C{
+    padding-bottom: 20px;
+ }
+ .D{
+    color: red;
+ }
+ .Z{
+    display: flex;
+    flex: row;
+    margin-bottom: 20px;
+ }
+ .one{
+    padding-left: 20px;
+ }
+ .Z1,.Y21{
+    height: 32px;
+    width: 30px;
+    border: 1px solid black;
+     border-right: none;
+     text-align: center;
+     line-height: 2;
+     background-color: aquamarine;
+ }
+ .Z2 ,.Y22{
+  
+    height: 30px;
+    border: 1px solid black;
+    border-left: none
+ }
+ .Y1{
+    display: flex;
+    flex-direction: row;
+
+ }
+ .Y11{
+    height: 30px;
+    border: 1px solid black;
+    border-right: none;
+    width: 90px;
+}
+ .Y12{
+      height: 32px;
+    width: 60px;
+    border: 1px solid black;
+     border-left: none;
+     text-align: center;
+     line-height: 2;
+     background-color: aquamarine;
+ } 
+ .Y2{
+    display: flex;
+    flex-direction: row;
+ }
+ .I1,.I2{
+    border: 1px solid black;
+    height: 30px;
+    width: 150px;
+     margin-bottom: 10px;
+ }
+ .X{
+    margin-top: 10px;
+ }
+ .I2:hover{
+    background-color: yellow;
+ }
+ .I1:hover{
+    background-color: yellow;
+ }
+ .last{
+     margin-top: 80px;
+ }   
+ .submit{
+    background-color: lawngreen;
+ }
+ .submit:hover{
+    background-color:blue;
+    color: white;
+ }
+ .clear:hover{
+    background-color: red;
+    color: white;
+ }
